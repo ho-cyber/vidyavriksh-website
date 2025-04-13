@@ -6,6 +6,7 @@ import YouTubePlaylist from '../components/Seedlings';
 import MediumFeed from '../components/MediumPull';
 
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+import Seedlings from '../components/Seedlings';
 
 const articles = [
   {
@@ -114,7 +115,7 @@ const VidyavrikshArticlesPage = () => {
 
         <div className="mt-20">
           <h2 className="text-4xl font-bold text-center text-black mb-10">Watch Seedlings of Success</h2>
-          <YouTubePlaylist />
+          <Seedlings />
         </div>
 
         <div className="mt-20">

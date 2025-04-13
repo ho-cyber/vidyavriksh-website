@@ -1,19 +1,19 @@
 import React from "react";
-import LiteYoutubeEmbed  from 'react-lite-youtube-embed'
-import "react-lite-youtube-embed/dist/LiteYoutubeEmbed.css"
+import { YouTubePlaylist } from "@codesweetly/react-youtube-playlist";
 
-const YouTubePlaylist = () => {
+
+const Seedlings = () => {
     return (
         <div className="flex justify-center w-full p-5">
         <div className="w-[800px]">
-          <LiteYoutubeEmbed 
-            id="PLSwo8ZmVlUBnBHqXZ11fieXGUtnywwZeY"
-            playlist={true}
-          />
+        <YouTubePlaylist
+      apiKey="AIzaSyCa622EHwPWiJ51oqX8l88AJwxMPylYNgY"
+      playlistId="PLSwo8ZmVlUBnBHqXZ11fieXGUtnywwZeY"
+    />
         </div>
       </div>      
     );
   };
   
-export default YouTubePlaylist;
-  
+export default Seedlings;
+//PLSwo8ZmVlUBnBHqXZ11fieXGUtnywwZeY
