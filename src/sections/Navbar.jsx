@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto">
       <div className="flex justify-between items-center py-1 mx-auto c-space">
 
-        <img src='../../vv-logo-bg.png' className='w-40 h-auto' />
+        <img src='/assets/vv-logo-bg.png' className='w-40 h-auto' />
 
 
           <button
