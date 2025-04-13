@@ -35,7 +35,7 @@ const About = () => {
         {/* Seedlings of Success */}
         <div className="col-span-1 xl:row-span-3 bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
           <img
-            src="../../seedlings-success.png"
+            src="seedlings-success.png"
             alt="grid-2"
             className="w-full h-64 object-contain rounded-xl mb-4"
           />
@@ -55,7 +55,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-4 bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
           <div className="flex justify-center mb-4">
             <img
-              src="../../alumni.jpg"
+              src="alumni.jpg"
               alt="Alumni"
               className="w-32 h-auto rounded-full"
             />

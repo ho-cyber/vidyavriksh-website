@@ -84,7 +84,7 @@ export const myProjects = [
       'With experience consulting the Goa State on improving math pedagogy, Siddharaj blends offline and online learning using modern classrooms and labs. His efforts have helped students gain admission to top institutes like IITs, NITs, BITS, GMC, and more.',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
     texture: '/textures/project/project1.mp4',
-    logo: '../../siddhraj.png',
+    logo: 'siddhraj.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       

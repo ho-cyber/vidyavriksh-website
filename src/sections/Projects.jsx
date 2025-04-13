@@ -77,14 +77,14 @@ const Projects = () => {
               className="p-3 bg-black hover:bg-gray-200 rounded-full border border-gray-300 transition"
               onClick={() => handleNavigation('previous')}
             >
-              <img src="/assets/left-arrow.png" alt="left arrow" className="w-5 h-5" />
+              <img src="left-arrow.png" alt="left arrow" className="w-5 h-5" />
             </button>
 
             <button
               className="p-3 bg-black hover:bg-gray-200 rounded-full border border-gray-300 transition"
               onClick={() => handleNavigation('next')}
             >
-              <img src="/assets/right-arrow.png" alt="right arrow" className="w-5 h-5" />
+              <img src="right-arrow.png" alt="right arrow" className="w-5 h-5" />
             </button>
           </div>
         </div>
